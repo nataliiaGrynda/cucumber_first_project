@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate CAR FINDER menu item",
+        "description": "",
+        "id": "carvana-page-validation;validate-car-finder-menu-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on \"https://www.carvana.com/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user clicks on \"CAR FINDER” menu item",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@na"
+          }
+        ]
+      }
+    ],
+    "name": "Carvana Page Validation",
+    "description": "",
+    "id": "carvana-page-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/carvana.feature",
+    "tags": []
+  }
+]
