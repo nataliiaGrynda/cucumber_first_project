@@ -152,8 +152,6 @@ public class CarvanaSteps {
         break;
     }
   }
-
-
   @Then("user should see the monthly payment as {string}")
   public void userShouldSeeTheMonthlyPaymentAs(String payment) {
   Assert.assertTrue(carvanaLoanCalculatorPage.monthlyPayment.isDisplayed());

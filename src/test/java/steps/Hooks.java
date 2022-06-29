@@ -9,7 +9,7 @@ import utility.Driver;
 public class Hooks {
   //we cannot use this with api or html driver
   @After
-  public void teardown(Scenario scenario){
+  public void teardown(Scenario scenario){//after each cenario run this. after each cenario fails take a pichture
     System.out.println("Scenario = " + scenario.getName() + "\nstatus = " +  scenario.getStatus());
     try{
       if(scenario.isFailed()){
